@@ -12,15 +12,15 @@ export default function ContactPage() {
     <>
       <section
         className="w-full py-24 md:py-32 lg:py-48 bg-cover bg-center relative parallax"
-        style={{ backgroundImage: "url('/placeholder.svg?height=800&width=1600')" }}
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1525193612562-0ec53b0e5d7c?q=80&w=1470&auto=format&fit=crop')" }}
       >
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="container px-4 md:px-6 relative z-10">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2 animate-fade-in">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-white">Contact Us</h1>
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-white">Hubungi Kami</h1>
               <p className="max-w-[700px] text-white/90 md:text-xl">
-                We'd love to hear from you. Reach out with any questions or feedback.
+                kami sangat berterima kasih atas kritik dan saran dari anda.
               </p>
             </div>
           </div>
@@ -31,9 +31,9 @@ export default function ContactPage() {
           <div className="grid gap-10 px-10 md:gap-16 lg:grid-cols-2">
             <ScrollReveal className="animate-slide-in-left">
               <div className="space-y-4">
-                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Get In Touch</h2>
+                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Kritik dan Saran</h2>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Have a question or feedback? Fill out the form and we'll get back to you as soon as possible.
+                  Memiliki masukan? bantu kami agar bisa terus berkembang untuk mencapai visi dari Ballade Coffee.
                 </p>
                 <form className="grid gap-4">
                   <div className="grid gap-2">
@@ -87,7 +87,7 @@ export default function ContactPage() {
                         <MapPin className="h-6 w-6" />
                       </div>
                       <div className="grid gap-1">
-                        <h3 className="text-xl font-bold">Visit Us</h3>
+                        <h3 className="text-xl font-bold">Kunjungi Kami</h3>
                         <p className="text-sm text-muted-foreground">
                           Jember Town Square, Jl. Sumatra No.1
                           <br />
@@ -121,11 +121,11 @@ export default function ContactPage() {
                         <Phone className="h-6 w-6" />
                       </div>
                       <div className="grid gap-1">
-                        <h3 className="text-xl font-bold">Call Us</h3>
+                        <h3 className="text-xl font-bold">Hubungi Kami</h3>
                         <p className="text-sm text-muted-foreground">
-                          Phone: (555) 123-4567
+                          Phone: 0831 4489 1782
                           <br />
-                          We're happy to answer any questions
+                          Kami siap melayani panggilan anda
                         </p>
                       </div>
                     </div>
@@ -140,9 +140,9 @@ export default function ContactPage() {
                       <div className="grid gap-1">
                         <h3 className="text-xl font-bold">Email Us</h3>
                         <p className="text-sm text-muted-foreground">
-                          General Inquiries: info@bloomandbrewcafe.com
+                          Kepentingan Umum: info@balladecoffee.com
                           <br />
-                          Events: events@bloomandbrewcafe.com
+                          Events: events@balladecoffee.com
                         </p>
                       </div>
                     </div>
@@ -158,7 +158,7 @@ export default function ContactPage() {
           <ScrollReveal>
             <div className="text-center mb-10">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Find Us</h2>
-              <p className="mt-2 text-muted-foreground md:text-xl">We're conveniently located near campus</p>
+              <p className="mt-2 text-muted-foreground md:text-xl">Kami berada di pusat komersil di Jember</p>
             </div>
           </ScrollReveal>
           <ScrollReveal>
@@ -183,48 +183,47 @@ export default function ContactPage() {
           <ScrollReveal>
             <div className="text-center mb-10">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Frequently Asked Questions</h2>
-              <p className="mt-2 text-muted-foreground md:text-xl">Answers to common questions</p>
+              <p className="mt-2 text-muted-foreground md:text-xl">Jawaban untuk pertanyaan umum</p>
             </div>
           </ScrollReveal>
           <div className="grid gap-6 md:grid-cols-2 lg:gap-12 max-w-4xl mx-auto">
             <ScrollReveal className="delay-100">
               <div className="space-y-2 group">
                 <h3 className="text-xl font-bold group-hover:text-green-600 transition-colors duration-300">
-                  Do you offer Wi-Fi?
+                  Di sana ada Wi-Fi?
                 </h3>
                 <p className="text-muted-foreground">
-                  Yes, we offer free high-speed Wi-Fi to all our customers. Just ask for the password at the counter.
+                  Pastinya, kami memiliki Wi-Fi gratis untuk pengunjung kami.
                 </p>
               </div>
             </ScrollReveal>
             <ScrollReveal className="delay-200">
               <div className="space-y-2 group">
                 <h3 className="text-xl font-bold group-hover:text-green-600 transition-colors duration-300">
-                  Can I bring my laptop to work?
+                  Boleh saya membawa laptop untuk bekerja?
                 </h3>
                 <p className="text-muted-foreground">
-                  We have plenty of outlets and comfortable seating designed for those who want to work or study.
+                  Kami menyediakan tempat khusus yang tenang untuk memudahkan anda bekerja.
                 </p>
               </div>
             </ScrollReveal>
             <ScrollReveal className="delay-300">
               <div className="space-y-2 group">
                 <h3 className="text-xl font-bold group-hover:text-green-600 transition-colors duration-300">
-                  Do you have plant-based milk options?
+                  Apakah boleh beri pesanan custom?
                 </h3>
                 <p className="text-muted-foreground">
-                  Yes, we offer a variety of plant-based milks including oat, almond, soy, and coconut at no extra
-                  charge.
+                  Pastinya dong, kami percaya diri dengan kemampuan barista kami dalam menyajikan pesanan.
                 </p>
               </div>
             </ScrollReveal>
             <ScrollReveal className="delay-400">
               <div className="space-y-2 group">
                 <h3 className="text-xl font-bold group-hover:text-green-600 transition-colors duration-300">
-                  Can I book the space for a private event?
+                  Boleh saya menyewa tempat untuk kepentingan acara?
                 </h3>
                 <p className="text-muted-foreground">
-                  Yes, we offer private bookings during select hours. Please contact us for availability and pricing.
+                  Tentu saja boleh, kami menawarkan berbagai pilihan untuk event organizer.
                 </p>
               </div>
             </ScrollReveal>
@@ -235,13 +234,12 @@ export default function ContactPage() {
         <div className="container px-4 md:px-6">
           <ScrollReveal>
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl mb-6">Join Our Team</h2>
+              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl mb-6">Menjadi Bagian Dari Kami</h2>
               <p className="text-muted-foreground md:text-xl mb-8">
-                We're always looking for passionate individuals to join our team. If you love coffee, plants, and
-                community, we'd love to hear from you.
+                Kami sangat membutuhkan tenaga professional untuk bisa terus memberikan layanan terbaik bagi pengunjung. Kirimkan CV mu ya!
               </p>
               <Button variant="outline" className="btn-hover-expand transition-all duration-300 hover:bg-green-100">
-                View Open Positions
+                Lihat lowongan
               </Button>
             </div>
           </ScrollReveal>

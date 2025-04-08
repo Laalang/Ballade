@@ -7,8 +7,8 @@ export function Footer() {
       <div className="container px-4 md:px-6 py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h3 className="text-xl font-bold">Bloom & Brew</h3>
-            <p className="text-green-100">A plant-filled oasis for coffee lovers near campus.</p>
+            <h3 className="text-xl font-bold">Ballade Coffee</h3>
+            <p className="text-green-100">Tempat penuh warna dan cerita.</p>
             <div className="flex space-x-4">
               <Link
                 href="#"
@@ -86,15 +86,15 @@ export function Footer() {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold">Contact</h4>
             <address className="not-italic text-green-100 space-y-2">
-              <p>123 College Avenue</p>
-              <p>Campus Town</p>
-              <p className="hover:text-white transition-colors duration-300">(555) 123-4567</p>
-              <p className="hover:text-white transition-colors duration-300">info@bloomandbrewcafe.com</p>
+              <p>Jl. Kaliurang, Sumbersari, Jember</p>
+              <p>Jember Town Square</p>
+              <p className="hover:text-white transition-colors duration-300">0832 1821 9844</p>
+              <p className="hover:text-white transition-colors duration-300">info@balladecoffee.com</p>
             </address>
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-green-800 text-center text-green-100">
-          <p>&copy; {new Date().getFullYear()} Bloom & Brew. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Ballade Coffee. Site by Archyst.</p>
         </div>
       </div>
     </footer>

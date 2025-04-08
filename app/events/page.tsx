@@ -11,7 +11,7 @@ export default function EventsPage() {
     <>
       <section
         className="w-full py-24 md:py-32 lg:py-48 bg-cover bg-center relative parallax"
-        style={{ backgroundImage: "url('/placeholder.svg?height=800&width=1600')" }}
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1597158520886-43e23f1acb1e?q=80&w=1470&auto=format&fit=crop')" }}
       >
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="container px-4 md:px-6 relative z-10">
@@ -19,7 +19,7 @@ export default function EventsPage() {
             <div className="space-y-2 animate-fade-in">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-white">Events & Community</h1>
               <p className="max-w-[700px] text-white/90 md:text-xl">
-                Join us for workshops, live music, and community gatherings
+                Bergabung dan menjadi bagian dari komunitas kami
               </p>
             </div>
           </div>
@@ -29,9 +29,9 @@ export default function EventsPage() {
         <div className="container px-4 md:px-6">
           <ScrollReveal>
             <div className="text-center mb-10">
-              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Upcoming Events</h2>
+              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Event Mendatang</h2>
               <p className="mt-2 text-muted-foreground md:text-xl">
-                Mark your calendar for these exciting community gatherings
+                Kosongkan jadwal anda dan nikmati keseruan bersama Ballade Coffee
               </p>
             </div>
           </ScrollReveal>
@@ -40,7 +40,7 @@ export default function EventsPage() {
               <Card className="interactive-card">
                 <div className="image-hover-zoom">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="https://images.unsplash.com/photo-1484876065684-b683cf17d276?q=80&w=1374&auto=format&fit=crop"
                     width={600}
                     height={400}
                     alt="Plant propagation workshop"
@@ -52,9 +52,9 @@ export default function EventsPage() {
                     <Calendar className="h-4 w-4" />
                     <span>April 15, 2025</span>
                   </div>
-                  <h3 className="text-xl font-bold">Plant Propagation Workshop</h3>
+                  <h3 className="text-xl font-bold">Live Music Butan</h3>
                   <p className="text-sm text-muted-foreground mt-2">
-                    Learn how to grow your plant family with simple propagation techniques. All materials provided.
+                    Perfomance dari band lokal kampusan di jember.
                   </p>
                   <div className="flex items-center gap-4 mt-4">
                     <div className="flex items-center gap-1 text-sm">
@@ -63,10 +63,10 @@ export default function EventsPage() {
                     </div>
                     <div className="flex items-center gap-1 text-sm">
                       <MapPin className="h-4 w-4" />
-                      <span>Main Space</span>
+                      <span>Halaman Utama</span>
                     </div>
                   </div>
-                  <Button className="w-full mt-4 transition-all duration-300 hover:shadow-md">Register</Button>
+                  <Button className="w-full mt-4 transition-all duration-300 hover:shadow-md">Ingatkan</Button>
                 </CardContent>
               </Card>
             </ScrollReveal>
@@ -74,7 +74,7 @@ export default function EventsPage() {
               <Card className="interactive-card">
                 <div className="image-hover-zoom">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="https://images.unsplash.com/photo-1543436115-0d6fbe97ece0?q=80&w=1528&auto=format&fit=crop"
                     width={600}
                     height={400}
                     alt="Acoustic night with local musicians"
@@ -86,9 +86,9 @@ export default function EventsPage() {
                     <Calendar className="h-4 w-4" />
                     <span>April 20, 2025</span>
                   </div>
-                  <h3 className="text-xl font-bold">Acoustic Night</h3>
+                  <h3 className="text-xl font-bold">Thrift Shop</h3>
                   <p className="text-sm text-muted-foreground mt-2">
-                    Local musicians perform in our cozy space. Free entry with any purchase.
+                    Event thrift pakaian branded.
                   </p>
                   <div className="flex items-center gap-4 mt-4">
                     <div className="flex items-center gap-1 text-sm">
@@ -97,10 +97,10 @@ export default function EventsPage() {
                     </div>
                     <div className="flex items-center gap-1 text-sm">
                       <MapPin className="h-4 w-4" />
-                      <span>Main Space</span>
+                      <span>Halaman Utama</span>
                     </div>
                   </div>
-                  <Button className="w-full mt-4 transition-all duration-300 hover:shadow-md">RSVP</Button>
+                  <Button className="w-full mt-4 transition-all duration-300 hover:shadow-md">Daftar</Button>
                 </CardContent>
               </Card>
             </ScrollReveal>
@@ -108,7 +108,7 @@ export default function EventsPage() {
               <Card className="interactive-card">
                 <div className="image-hover-zoom">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="https://images.unsplash.com/photo-1703531297357-ab23f011e2b3?q=80&w=1487&auto=format&fit=crop"
                     width={600}
                     height={400}
                     alt="Coffee brewing workshop"
@@ -120,9 +120,9 @@ export default function EventsPage() {
                     <Calendar className="h-4 w-4" />
                     <span>April 28, 2025</span>
                   </div>
-                  <h3 className="text-xl font-bold">Coffee Brewing Workshop</h3>
+                  <h3 className="text-xl font-bold">Billiard Tournament</h3>
                   <p className="text-sm text-muted-foreground mt-2">
-                    Learn different brewing methods from our expert baristas. Includes coffee tasting.
+                    Kejuaraan billiard dengan hadiah 40jt.
                   </p>
                   <div className="flex items-center gap-4 mt-4">
                     <div className="flex items-center gap-1 text-sm">
@@ -131,10 +131,10 @@ export default function EventsPage() {
                     </div>
                     <div className="flex items-center gap-1 text-sm">
                       <MapPin className="h-4 w-4" />
-                      <span>Brew Bar</span>
+                      <span>Halaman Utama</span>
                     </div>
                   </div>
-                  <Button className="w-full mt-4 transition-all duration-300 hover:shadow-md">Register</Button>
+                  <Button className="w-full mt-4 transition-all duration-300 hover:shadow-md">Daftar</Button>
                 </CardContent>
               </Card>
             </ScrollReveal>
@@ -146,9 +146,9 @@ export default function EventsPage() {
           <div className="grid gap-10 px-10 md:gap-16 lg:grid-cols-2">
             <ScrollReveal className="animate-slide-in-left">
               <div className="space-y-4">
-                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Monthly Events</h2>
+                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Event Bulanan</h2>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Join us for these recurring community gatherings that happen every month
+                  Bergabung bersama kami memeriahkan event bulanan kami
                 </p>
                 <div className="grid gap-6">
                   <div className="group">
@@ -158,10 +158,10 @@ export default function EventsPage() {
                       </div>
                       <div className="grid gap-1">
                         <h3 className="text-xl font-bold group-hover:text-green-600 transition-colors duration-300">
-                          Book Club
+                          Live Performance Band Lokal
                         </h3>
                         <p className="text-sm text-muted-foreground">
-                          First Tuesday of every month. Join us to discuss our monthly book selection.
+                          setiap hari senin dan kamis. Saksikan keseruannya
                         </p>
                         <div className="flex items-center gap-4 pt-2">
                           <div className="flex items-center gap-1 text-sm">
@@ -179,10 +179,10 @@ export default function EventsPage() {
                       </div>
                       <div className="grid gap-1">
                         <h3 className="text-xl font-bold group-hover:text-green-600 transition-colors duration-300">
-                          Open Mic Night
+                          Blind Date Challange
                         </h3>
                         <p className="text-sm text-muted-foreground">
-                          Last Friday of every month. Share your talents with our supportive community.
+                          Setiap Tanggal 17. Ayo jatuh cinta bareng
                         </p>
                         <div className="flex items-center gap-4 pt-2">
                           <div className="flex items-center gap-1 text-sm">
@@ -200,10 +200,10 @@ export default function EventsPage() {
                       </div>
                       <div className="grid gap-1">
                         <h3 className="text-xl font-bold group-hover:text-green-600 transition-colors duration-300">
-                          Study Group
+                          Coffee Workshop
                         </h3>
                         <p className="text-sm text-muted-foreground">
-                          Every Wednesday. A dedicated quiet time for students to study together.
+                          Setiap tanggal 20. Belajar bareng soal kopi
                         </p>
                         <div className="flex items-center gap-4 pt-2">
                           <div className="flex items-center gap-1 text-sm">
@@ -227,10 +227,9 @@ export default function EventsPage() {
                   className="mx-auto aspect-video overflow-hidden rounded-xl object-cover shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.02]"
                 />
                 <div className="bg-green-50 p-6 rounded-xl">
-                  <h3 className="text-xl font-bold mb-2">Host Your Event</h3>
+                  <h3 className="text-xl font-bold mb-2">Ajukan Acaramu</h3>
                   <p className="text-muted-foreground">
-                    Looking for a space to host your own event? Our coffee shop is available for private bookings during
-                    select hours.
+                    Lagi cari tempat buat gelar event? Ballade Coffee akan menyediakan semua yang kamu butuhin. booking sekarang!
                   </p>
                   <Button
                     variant="outline"
@@ -238,7 +237,7 @@ export default function EventsPage() {
                     asChild
                   >
                     <Link href="/contact">
-                      Contact Us
+                      Hubungi Kami
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Link>
                   </Button>
@@ -253,14 +252,14 @@ export default function EventsPage() {
           <ScrollReveal>
             <div className="text-center mb-10">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Event Gallery</h2>
-              <p className="mt-2 text-muted-foreground md:text-xl">Highlights from our past events</p>
+              <p className="mt-2 text-muted-foreground md:text-xl">Highlights dari event kami sebelumnya</p>
             </div>
           </ScrollReveal>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <ScrollReveal className="delay-100">
               <div className="image-hover-zoom rounded-lg overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://motomobinews.id/wp-content/uploads/2024/06/Turnamen-Biliar-Mercedes-Benz-Club-Tangerang-Raya_3.jpg"
                   width={300}
                   height={300}
                   alt="Poetry reading event"
@@ -271,7 +270,7 @@ export default function EventsPage() {
             <ScrollReveal className="delay-200">
               <div className="image-hover-zoom rounded-lg overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://www.rukita.co/stories/wp-content/uploads/2020/02/tempat-live-music-jakarta-header-2.png"
                   width={300}
                   height={300}
                   alt="Plant swap event"
@@ -282,7 +281,7 @@ export default function EventsPage() {
             <ScrollReveal className="delay-300">
               <div className="image-hover-zoom rounded-lg overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2022/12/07/2748695857.jpg"
                   width={300}
                   height={300}
                   alt="Live music performance"
@@ -293,7 +292,7 @@ export default function EventsPage() {
             <ScrollReveal className="delay-400">
               <div className="image-hover-zoom rounded-lg overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://cdns.klimg.com/resized/476x/p/kim-tae-hee_rain_1507048222_kth.jpg"
                   width={300}
                   height={300}
                   alt="Coffee tasting workshop"
@@ -308,9 +307,9 @@ export default function EventsPage() {
         <div className="container px-4 md:px-6">
           <ScrollReveal>
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl mb-6">Stay Updated</h2>
+              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl mb-6">Jangan Ketinggalan</h2>
               <p className="text-muted-foreground md:text-xl mb-8">
-                Sign up for our newsletter to receive updates about upcoming events and special promotions
+                Daftar untuk terus mendapatkan kabar dari event yang di adakan di Ballade Coffee
               </p>
               <div className="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
                 <input

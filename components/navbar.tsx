@@ -22,7 +22,7 @@ export function Navbar() {
       <div className="container flex h-16 items-center">
         <div className="mr-4 flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
-            <span className="text-xl font-bold tracking-tight animate-pulse-slow">Bloom & Brew</span>
+            <span className="text-xl font-bold tracking-tight animate-pulse-slow">Ballade Coffee</span>
           </Link>
         </div>
         <div className="hidden md:flex md:flex-1 md:items-center md:justify-between">
@@ -43,7 +43,7 @@ export function Navbar() {
               size="sm"
               className="transition-all duration-300 hover:shadow-md hover:bg-green-700"
             >
-              Order Online
+              Hubungi Kami
             </Button>
           </div>
         </div>
@@ -58,7 +58,7 @@ export function Navbar() {
             <SheetContent side="right">
               <div className="px-2 py-6">
                 <Link href="/" className="flex items-center space-x-2 mb-6">
-                  <span className="text-xl font-bold tracking-tight">Bloom & Brew</span>
+                  <span className="text-xl font-bold tracking-tight">Ballade Coffee</span>
                 </Link>
                 <nav className="flex flex-col space-y-4">
                   {navLinks.map((link) => (
@@ -72,7 +72,7 @@ export function Navbar() {
                     </Link>
                   ))}
                   <Button variant="default" size="sm" className="mt-2 transition-all duration-300 hover:shadow-md">
-                    Order Online
+                    Hubungi Kami
                   </Button>
                 </nav>
               </div>
