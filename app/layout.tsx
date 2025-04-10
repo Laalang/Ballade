@@ -7,10 +7,10 @@ import { Footer } from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Bloom & Brew - Plant-Filled Coffee Shop",
+  title: "Ballade Coffee",
   description:
-    "A modern, plant-filled coffee shop near campus, offering diverse drinks, snacks, and a vibrant community space.",
-    generator: 'v0.dev'
+    "Coffee shop seribu event",
+    generator: 'Vercel'
 }
 
 export default function RootLayout({ children }) {

@@ -220,7 +220,7 @@ export default function EventsPage() {
             <ScrollReveal className="animate-slide-in-right">
               <div className="space-y-4">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="https://images.unsplash.com/photo-1507759307406-da169254d741?q=80&w=1568&auto=format&fit=crop"
                   width={600}
                   height={400}
                   alt="Community gathering at Bloom & Brew"
